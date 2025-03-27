@@ -1,0 +1,17 @@
+.Header {
+    width: 1360px;
+    height: 70px;
+    background-color: rgb(175, 230, 230);
+    display: flex;
+}
+.btn {
+    margin-left: 300px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    color: blue;
+    border-bottom:  3px solid black;
+}
+

@@ -1,0 +1,33 @@
+.main {
+    display: flex;
+}
+
+.Students {
+    margin-left: 50px;
+}
+.add-Students {
+    margin-left: 800px;
+    margin-top: 33px;
+    width: 150px;
+    height: 35px;
+    border-radius: 50px;
+    border: 2px solid rgb(9, 183, 206);
+    cursor: pointer;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 50px;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
