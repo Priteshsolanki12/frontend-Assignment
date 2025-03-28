@@ -16,7 +16,7 @@ function Add() {
     const [course, setCourse] = useState('');
     const [batch, setBatch] = useState('');
     
-    const students = useSelector((state) => state.students);
+    useSelector((state) => state.students);
     const dispatch = useDispatch();
 
     const handleAddOrEditStudent = () => {
